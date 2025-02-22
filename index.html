@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Vicky - Personal Website</title>
 </head>
 <body>
     <header>
         <nav>
+            <div class="nav-brand">Vicky Mahfudy</div>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -29,34 +31,93 @@
 
         <section id="about">
             <h2>About Me</h2>
-            <article>
-                <h3>Education</h3>
-                <ul>
-                    <li>2015-2019: Institut Teknologi Sepuluh Nopember - Informatics</li>
-                </ul>
-
-                <h3>Work Experience</h3>
-                <ul>
-                    <li>2019-2022 Web Developer at Institut Teknologi Sepuluh Nopember</li>
-                </ul>
-
-                <h3>Skills</h3>
-                <ul>
-                    <li>Front-end</li>
-                    <li>Back-end</li>
-                    <li>Database</li>
-                </ul>
-
-                <h3>Interests</h3>
-                <ul>
-                    <li>Web Development</li>
-                    <li>UI/UX</li>
-                </ul>
+            
+            <!-- Education & Experience Grid -->
+            <article class="about-grid">
+                <div>
+                    <h3>Education</h3>
+                    <ul class="education-list">
+                        <li class="education-item">
+                            <h4>Full Stack Data Analytics</h4>
+                            <div class="education-info">
+                                <span class="institution">RevoU</span>
+                                <span class="year">May 2022 - August 2022</span>
+                            </div>
+                            <p>Intensive 13 weeks data analytics online learning program with instructors from top leading company like Tokopedia, Traveloka, XL Axiata, etc.</p>
+                            <p class="achievements">Achievements:</p>
+                            <ul class="achievement-list">
+                                <li>Being the Best Student among 60 students in the class.</li>
+                                <li>First Winner of Group Final Project among the other 18 groups.</li>
+                            </ul>
+                        </li>
+                        
+                        <li class="education-item">
+                            <h4>Bachelor's Degree in Informatics</h4>
+                            <div class="education-info">
+                                <span class="institution">Institut Teknologi Sepuluh Nopember</span>
+                                <span class="year">2015 - 2019</span>
+                            </div>
+                            <p class="gpa">Cumulative GPA: 3.56/4.00</p>
+                            <p>Actively participated in organizations and graduated on time with cumlaude by taking several subjects related to data analysis:</p>
+                            <ul class="courses-list">
+                                <li>Probability and Statistics</li>
+                                <li>Database System</li>
+                                <li>Database Management</li>
+                                <li>Data Mining</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Work Experience</h3>
+                    <ul class="experience-list">
+                        <li class="experience-item">
+                            <h4>Full Stack Web Developer</h4>
+                            <div class="experience-info">
+                                <span class="company">Institut Teknologi Sepuluh Nopember</span>
+                                <span class="duration">November 2019 - August 2022</span>
+                            </div>
+                            <span class="job-type">(Full-Time)</span>
+                            
+                            <p class="experience-desc">Build and maintain 3 web-based information system for Bidang Perencanaan, Keuangan, dan Sarana Prasarana:</p>
+                            
+                            <ul class="projects-list">
+                                <li>Application for analyzing data of new students.</li>
+                                <li>Application for monitoring data of revenue system.</li>
+                                <li>Application for processing finance operational.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </article>
+            
+            <!-- Skills Section -->
+            <div class="skills-section">
+                <h3>Skills</h3>
+                <ul class="skills-list">
+                    <!-- Skills items -->
+                </ul>
+            </div>
         </section>
 
         <section id="projects">
             <h2>My Projects (will updated soon)</h2>
+            <div class="project">
+                <h3>[Project Title]</h3>
+                <p>[Project Description]</p>
+                <ul>
+                    <li>[Technology 1]</li>
+                    <li>[Technology 2]</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>[Project Title]</h3>
+                <p>[Project Description]</p>
+                <ul>
+                    <li>[Technology 1]</li>
+                    <li>[Technology 2]</li>
+                </ul>
+            </div>
             <div class="project">
                 <h3>[Project Title]</h3>
                 <p>[Project Description]</p>
