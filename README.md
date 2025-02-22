@@ -2,6 +2,9 @@
 
 A personal portfolio website showcasing my professional background, skills, and projects. The website serves as an online resume and a platform to connect with potential collaborators and employers.
 
+## Live Demo
+Visit the live website: [Vicky's Portfolio](https://revou-fsse-feb25.github.io/milestone-1-vickymahfudy/)
+
 ## Overview
 
 This portfolio website is designed to provide visitors with information about my professional journey, skills, and projects. It features a clean and modern design with responsive layout and interactive elements.
