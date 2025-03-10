@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-A personal portfolio website showcasing my professional background, skills, and projects. The website serves as an online resume and a platform to connect with potential collaborators and employers.
+A modern, responsive portfolio website showcasing my professional background, skills, and projects.
 
 ## Live Demo
 Visit the live website: [Vicky's Portfolio](https://revou-fsse-feb25.github.io/milestone-1-vickymahfudy/)
@@ -51,16 +51,17 @@ This portfolio website is designed to provide visitors with information about my
 - Hosting
   - GitHub Pages
 - Fonts
-  - Google Fonts (Inter)
+  - Font Awesome Icons
+  - Google Fonts (Poppins, Inter)
 
 ## Design Features
 
-- Clean and modern interface
-- Responsive design for all screen sizes
-- Consistent color scheme
-- Interactive elements with hover effects
-- Professional typography
-- Proper spacing and layout hierarchy
+- Responsive Navigation : Mobile-friendly navigation with smooth scrolling
+- Modern Typography : Carefully selected fonts and text hierarchy
+- Interactive Elements : Hover effects and transitions
+- Optimized Images : Responsive images with proper scaling
+- Contact Form : Functional contact form with validation
+- Accessibility : WCAG compliant with proper semantic HTML
 
 ## Future Enhancements
 
