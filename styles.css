@@ -869,6 +869,66 @@ footer {
         background-attachment: scroll;
     }
 }
+
+/* Typography Base */
+:root {
+    --heading-font: 'Poppins', sans-serif;
+    --body-font: 'Inter', sans-serif;
+    --line-height-body: 1.8;
+    --line-height-heading: 1.3;
+}
+
+/* Section Typography */
+section h2 {
+    font-family: var(--heading-font);
+    font-size: clamp(2rem, 4vw, 2.5rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: clamp(2rem, 4vw, 3rem);
+    color: #4a2b8c;
+}
+
+/* Biography and Description Text */
+.about-description {
+    font-family: var(--body-font);
+    font-size: clamp(1rem, 2vw, 1.1rem);
+    line-height: var(--line-height-body);
+    color: #6b46c1;
+    max-width: 65ch;
+    margin-bottom: 2rem;
+}
+
+/* Section Headers */
+.section-title {
+    font-family: var(--heading-font);
+    font-size: clamp(1.8rem, 3vw, 2.2rem);
+    font-weight: 600;
+    color: #4a2b8c;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* Subsection Headers */
+.subsection-title {
+    font-family: var(--heading-font);
+    font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+    font-weight: 600;
+    color: #6b46c1;
+    margin: 2rem 0 1rem;
+}
+
+/* Media Queries for Typography */
+@media (max-width: 768px) {
+    :root {
+        --line-height-body: 1.6;
+    }
+
+    .about-description {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
 /* Projects Grid Layout */
 .projects-grid {
     /* Base spacing and alignment */
